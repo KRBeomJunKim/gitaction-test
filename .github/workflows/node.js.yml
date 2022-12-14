@@ -8,7 +8,7 @@ on:
 
 env:
   POSTMAN_COLLECTION_ID: ${{ secrets.POSTMAN_COLLECTION_ID }}
-  POSTMAN_API_KEY: ${{ secretes.POSTMAN_API_KEY }}
+  POSTMAN_API_KEY: ${{ secrets.POSTMAN_API_KEY }}
 
 jobs:
   build:
