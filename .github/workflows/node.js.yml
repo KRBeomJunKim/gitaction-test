@@ -6,6 +6,10 @@ on:
   pull_request:
     branches: [ "main" ]
 
+env:
+  POSTMAN_COLLECTION_ID: ${{ secrets.POSTMAN_COLLECTION_ID }}
+  POSTMAN_API_KEY: ${{ secretes.POSTMAN_API_KEY }}
+
 jobs:
   build:
     runs-on: ubuntu-latest
